@@ -1,5 +1,6 @@
 import UseEffect from "./Hooks/UseEffect";
 import UseReducer from "./Hooks/UseReducer";
+import UseRef from "./Hooks/UseRef";
 import UseState from "./Hooks/UseState";
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <UseState />
       <UseReducer />
       <UseEffect />
+      <UseRef />
     </div>
   );
 }
