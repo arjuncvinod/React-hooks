@@ -2,10 +2,10 @@ import UseReducer from "./Hooks/UseReducer";
 import UseState from "./Hooks/UseState";
 function App() {
   return (
-   <div>
-    <UseState/>
-  
-   </div>
+    <div>
+      <UseState />
+      <UseReducer />
+    </div>
   );
 }
 
