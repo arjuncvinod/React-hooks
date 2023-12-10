@@ -16,7 +16,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-#usestate{
-  background-color: rgb(218, 214, 214);
+body div div{
+  margin: 10px 0;
 }
+body div div:nth-child(even){
+ background-color: rgb(218, 214, 214);
+}
+
