@@ -7,3 +7,4 @@
 - useLayoutEffect
 - UseImperativeHandle
 - UseCallback
+- UseMemo
