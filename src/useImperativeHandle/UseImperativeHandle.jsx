@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import Button from "./Button";
 
-function ImperativeHandle() {
+function UseImperativeHandle() {
   const buttonRef = useRef(null);
   return (
     <div>
@@ -17,4 +17,4 @@ function ImperativeHandle() {
   );
 }
 
-export default ImperativeHandle;
+export default UseImperativeHandle;
