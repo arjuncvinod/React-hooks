@@ -1,8 +1,9 @@
-import UseEffect from "./Hooks/UseEffect";
-import UseReducer from "./Hooks/UseReducer";
-import UseRef from "./Hooks/UseRef";
-import UseState from "./Hooks/UseState";
-import UseLayoutEffect from "./Hooks/UseLayoutEffect";
+import UseEffect from "./useEffect/UseEffect"
+import UseReducer from "./UseReducer/UseReducer";
+import UseRef from "./useRef/UseRef"
+import UseState from "./UseState/UseState";
+import UseLayoutEffect from "./UseLayoutEffect/UseLayoutEffect";
+import UseImperativeHandle from "./useImperativeHandle/UseImperativeHandle";
 function App() {
   return (
     <div>
@@ -11,6 +12,7 @@ function App() {
       <UseEffect />
       <UseRef />
       <UseLayoutEffect />
+      <UseImperativeHandle />
     </div>
   );
 }
