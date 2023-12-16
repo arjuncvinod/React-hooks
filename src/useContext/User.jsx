@@ -5,9 +5,9 @@ function User() {
   const { username } = useContext(AppContext);
 
   return (
-    <div>
+    <section>
       <h1>User: {username}</h1>
-    </div>
+    </section>
   );
 }
 
