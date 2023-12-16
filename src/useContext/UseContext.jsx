@@ -8,9 +8,11 @@ function UseContext() {
   const [username, setUsername] = useState("");
 
   return (
+    <div>
     <AppContext.Provider value={{ username, setUsername }}>
       <Login /> <User />
     </AppContext.Provider>
+    </div>
   );
 }
 
