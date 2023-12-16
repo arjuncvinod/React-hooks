@@ -5,6 +5,7 @@ import UseState from "./useState/UseState";
 import UseLayoutEffect from "./useLayoutEffect/UseLayoutEffect";
 import UseImperativeHandle from "./useImperativeHandle/UseImperativeHandle";
 import UseContext from "./useContext/UseContext";
+import UseMemo from "./useMemo/UseMemo";
 import UseCallBack from "./useCallback/UseCallback";
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <UseLayoutEffect />
       <UseImperativeHandle />
       <UseContext />
+      <UseMemo />
       <UseCallBack />
     </div>
   );
