@@ -5,13 +5,13 @@ function Login() {
   const { setUsername } = useContext(AppContext);
 
   return (
-    <div>
+    <section>
       <input
         onChange={(event) => {
           setUsername(event.target.value);
         }}
       />
-    </div>
+    </section>
   );
 }
 
