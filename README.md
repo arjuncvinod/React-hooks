@@ -7,6 +7,6 @@
 - [useReducer](https://github.com/arjuncvinod/React-hooks/blob/master/src/useReducer/UseReducer.jsx)
 - [useLayoutEffect](https://github.com/arjuncvinod/React-hooks/blob/master/src/useLayoutEffect/UseLayoutEffect.jsx)
 - [useImperativeHandle](https://github.com/arjuncvinod/React-hooks/tree/master/src/useImperativeHandle/UseImperativeHandle.jsx)
-- useMemo
-- useContext
+- [useContext](https://github.com/arjuncvinod/React-hooks/tree/master/src/useContext/UseContext.jsx)
+- [useMemo](https://github.com/arjuncvinod/React-hooks/tree/master/src/useMemo/UseMemo.jsx)
 - useCallback
