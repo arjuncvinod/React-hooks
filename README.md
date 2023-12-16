@@ -1,8 +1,6 @@
 # React Hooks Implementation
 ## [Live Demo](https://react-hooks-acv.vercel.app/)
 
-Welcome to the React Hooks implementation repository! Here, you can explore various React hooks and see how they work in different scenarios.
-
 ## Hooks
 
 ### 1. [useState](https://github.com/arjuncvinod/React-hooks/blob/master/src/useState/UseState.jsx)
